@@ -1,4 +1,4 @@
-package at.sds.demo;
+package at.sds.demo.hello;
 
 public class HelloWorldBean {
 
