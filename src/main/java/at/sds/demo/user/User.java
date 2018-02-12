@@ -3,6 +3,7 @@ package at.sds.demo.user;
 import java.util.Date;
 
 public class User {
+
     public User(Integer id, String name, Date dateOfBirth) {
         this.id = id;
         this.name = name;
@@ -46,4 +47,6 @@ public class User {
                 ", dateOfBirth=" + dateOfBirth +
                 '}';
     }
+
+    protected User() {};
 }
